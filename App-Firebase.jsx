@@ -5,14 +5,13 @@ import { getDatabase, ref, onValue, set, update } from "firebase/database";
 // ─── FIREBASE CONFIG ──────────────────────────────────────────
 // TODO: Replace with your Firebase config from console.firebase.google.com
 const firebaseConfig = {
-  apiKey: "AIzaSyCDE_nvtCjwxwX3ZHShAlIr4AUyiOr7Jds",
-  authDomain: "election-app-87d89.firebaseapp.com",
-  databaseURL: "https://election-app-87d89-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "election-app-87d89",
-  storageBucket: "election-app-87d89.firebasestorage.app",
-  messagingSenderId: "847637841909",
-  appId: "1:847637841909:web:badeafea911de206fe02bc",
-  measurementId: "G-76W6HHS52X"
+  apiKey: "YOUR-API-KEY",
+  authDomain: "YOUR-PROJECT.firebaseapp.com",
+  databaseURL: "https://YOUR-PROJECT-default-rtdb.firebaseio.com",
+  projectId: "YOUR-PROJECT-ID",
+  storageBucket: "YOUR-PROJECT.appspot.com",
+  messagingSenderId: "YOUR-SENDER-ID",
+  appId: "YOUR-APP-ID"
 };
 
 // Initialize Firebase
